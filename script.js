@@ -69,3 +69,5 @@ let product3 = new ProductProperties("Cereal", 3.0, 15);
 let product4 = new ProductProperties("Juice", 2.0, 5);
 let product5 = new ProductProperties("Eggs", 3.5, 12);
 
+
+store.addProduct(product1);
