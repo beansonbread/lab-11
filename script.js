@@ -67,4 +67,5 @@ let product1 = new PerishableProductProperties("Milk", 2.5, 10, "2023-10-01");
 let product2 = new PerishableProductProperties("Bread", 1.5, 20, "2023-10-05");
 let product3 = new ProductProperties("Cereal", 3.0, 15);
 let product4 = new ProductProperties("Juice", 2.0, 5);
+let product5 = new ProductProperties("Eggs", 3.5, 12);
 
