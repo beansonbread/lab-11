@@ -22,7 +22,7 @@ class PerishableProductProperties extends ProductProperties {
     }
 
     toString() {
-        return `${super.toString()}, Expiration Date: ${this.expirationDate}`;
+        return `Product Name: ${this.name}, Price: ${this.price}, Quantity: ${this.quantity}, Expiration Date: ${this.expirationDate}`;
         // returns a string representation of the perishable product
     }
 }
@@ -57,7 +57,7 @@ class storeInventory {
     findProductByName(name) {
         const product = this.products.find(product => product.name === name); 
         if (product) {
-            console.log(`Product found: ${product.toString()}`);
+            console.log(`${product.toString()}`);
             return product;
         } else {
             console.log(`Product ${name} not found in inventory.`);
