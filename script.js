@@ -71,3 +71,4 @@ let product5 = new ProductProperties("Eggs", 3.5, 12);
 
 
 store.addProduct(product1);
+store.addProduct(product2);
