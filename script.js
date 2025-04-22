@@ -25,4 +25,12 @@ class PerishableProductProperties extends ProductProperties {
 }
 
 
+class Product {
+    static applyDiscount(products, discount) {
+        products.forEach(product => {
+            product.price -= product.price * (discount / 100);
+        });
+    }
+}
+
 
