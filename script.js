@@ -83,3 +83,6 @@ store.getInventoryValue();
 Product.applyDiscount(store.products, 15);
 //after discount
 store.getInventoryValue();
+
+//find product by name
+store.findProductByName("Milk");
