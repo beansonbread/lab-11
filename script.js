@@ -75,3 +75,7 @@ store.addProduct(product2);
 store.addProduct(product3);
 store.addProduct(product4);
 store.addProduct(product5);
+
+
+//before discount
+store.getInventoryValue();
