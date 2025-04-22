@@ -10,7 +10,7 @@ class ProductProperties {
     }
 
     toString() {
-        return console.log(`Product Name: ${this.name}, Price: ${this.price}, Quantity: ${this.quantity}`);
+        return `Product Name: ${this.name}, Price: ${this.price}, Quantity: ${this.quantity}`;
         // returns a string representation of the product
     }
 }
@@ -22,7 +22,7 @@ class PerishableProductProperties extends ProductProperties {
     }
 
     toString() {
-        return console.log(`${super.toString()}, Expiration Date: ${this.expirationDate}`);
+        return `${super.toString()}, Expiration Date: ${this.expirationDate}`;
         // returns a string representation of the perishable product
     }
 }
