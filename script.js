@@ -61,3 +61,4 @@ class storeInventory {
     }   
 }
 
+let store = new storeInventory();
