@@ -79,3 +79,5 @@ store.addProduct(product5);
 
 //before discount
 store.getInventoryValue();
+//apply discount
+Product.applyDiscount(store.products, 15);
