@@ -64,4 +64,4 @@ class storeInventory {
 let store = new storeInventory();
 
 let product1 = new PerishableProductProperties("Milk", 2.5, 10, "2023-10-01");
-
+let product2 = new PerishableProductProperties("Bread", 1.5, 20, "2023-10-05");
