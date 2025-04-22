@@ -33,4 +33,31 @@ class Product {
     }
 }
 
+class storeInventory {
+    constructor() {
+        this.products = [];
+    }
+
+    addProduct(product) {
+        this.products.push(product);
+        return console.log(`Product ${product.name} added to inventory.`);
+    }
+
+    getInventoryValue() {
+        const total = this.products.reduce((total, product) => total + product.getTotalValue(), 0);
+        console.log(`Total inventory value: ${total}`);
+        return total;
+    }
+
+    findProductByName(name) {
+        const product = this.products.find(product => product.name === name);
+        if (product) {
+            console.log(`Product found: ${product.toString()}`);
+            return product;
+        } else {
+            console.log(`Product ${name} not found in inventory.`);
+            return null;
+        }
+    }   
+}
 
